@@ -1,27 +1,63 @@
 <!DOCTYPE html>
-<html>
-<body style="background-color:rgb(157, 195, 250);">
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geburtstagseinladung</title>
+  <style>
+    body {
+      font-family: cursive; /* Ändern der Schriftart auf Cursive */
+      background-color: #321a53; /* Hintergrundfarbe auf Schwarz setzen */
+      margin: 0;
+      padding: 0;
+      color: #ffffff; /* Textfarbe auf Weiß setzen für bessere Lesbarkeit */
+    }
+    .container {
+      max-width: 736px; /* Breite des Bildes */
+      margin: 20px auto;
+      padding: 20px;
+      background-image: url('birthday.jpg');
+      background-size: contain; /* Bild genau in den Container einpassen */
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, p {
+        
+      text-align: center;
+    }
+    .emojis {
+        display: flex; /* Emojis nebeneinander anordnen */
+        justify-content: center; /* Zentrieren der Emojis horizontal */
+        margin-top: 20px;
+      }
+      .emoji {
+        font-size: 25px;
+        margin: 0 10px; /* Abstand zwischen den Emojis */
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Du bist eingeladen!</h1>
+    <p>Komm und feiere Khaled's Geburtstag mit uns!</p>
+    <div class="details">
+      <p><strong>Datum:</strong> 08.04.2024</p>
+      <p><strong>Uhrzeit:</strong> 12:00</p>
+      <p><strong>Ort:</strong> Heidelberg</p>
+    </div>
+    <p>Vergiss nicht, dein Lächeln und gute Laune mitzubringen!</p>
+    <p>Wir freuen uns schon darauf, dich dort zu sehen!</p>
+    <div style="text-align: center;">
 
-  <h1 align="center">Birthday Invitation</h1>
-  <h2 align="center">Dragonball Geburtstagsparty</h2>
-  <h3 align="center">Wann: Am 10. Februar</h3>
-  <h3 align="center">Wo: Im Kame House in der Mitte des Ozeans</h3>
-
-  <p align="center">Wir machen Liegestütze auf einem Finger.</p>
-
-  <center><img src="../assets/images/kame_house.jpg" alt="kame house on a little island" height="350"/></center>
-
-  <h3 align="center">Es wird ne Menge zu knabbern geben</h3>
-  <ul align="justify">
-    <li>🍟 nen bissl Finger Food 🧇 </li>
-    <li>🍩🍬 ordentlich ungesundes Süßkram Zeugs 🍫🍭</li>
-    <li>Bier 🍺 Sekt 🥂 Kurze 🍶 und alkoholfreie Getränke 🧃</li>
-    <li>Bitte bringt aber auch nen bissl was eigenes mit - halt was ihr so gerne trinkt🥃🍹🧉</li>
-  </ul>
-
-  <h3 align = "center">GESCHENKEEE</h3>
-  <p align="center">Nüscht, kommt einfach rum.</p> 
-
-  <h4 align="center">Ich freu mich auf euch😏👉</h4>
+    </div>
+    <div style="margin-top: 20px; text-align: center;">
+      <p>Wir werden folgendes anbieten:</p>
+      <p class="emoji">&#127856;</p> Kuchen
+      <p class="emoji">&#127867;</p> Eiscreme
+      <p class="emoji">&#127861;</p> Pizza
+      <p class="emoji">&#127865;</p> Getränke
+    </div>
+  </div>
 </body>
 </html>
